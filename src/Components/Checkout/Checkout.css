@@ -7,8 +7,10 @@
 .checkout-ad{
     width: 100%;
     
-    max-height: 30%;
-    margin-bottom: 10px;
+    object-fit: cover;
+    background-color: black;
+   
+    
 }
 .checkout-title{
     margin-right: 10px;
@@ -41,4 +43,32 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+}
+.Checkout-product{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Checkout-productimg{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.Checkout-productinfo{
+    padding-left: 20px;
+}
+.Checkout-productinfo>button{
+    background: #f0c14b;
+ 
+    border:1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+.Checkout-productrating{
+    display: flex;
+}
+.Checkout-producttitle{
+    font-size: 17px;
+    font-weight: 800;
 }
